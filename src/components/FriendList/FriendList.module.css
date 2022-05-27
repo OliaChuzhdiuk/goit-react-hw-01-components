@@ -1,0 +1,33 @@
+.friend__list {
+    width: 320px;
+    margin: 30px auto 30px auto;
+    padding: 0;
+    list-style: none;
+}
+
+.item {
+    display: flex;
+    padding: 15px;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid #000000;
+    border-radius: 10px;
+}
+
+.item:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+.status {
+    display: block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #000000;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+
+.avatar {
+    display: block;
+    margin-right: 30px;
+}
